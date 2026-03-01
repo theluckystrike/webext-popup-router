@@ -1,0 +1,39 @@
+{
+    "name": "webext-popup-router",
+    "version": "0.1.0",
+    "description": "Lightweight popup page router for Chrome extensions — hash-based routing, page transitions, navigation history, and back button support. Zero dependencies.",
+    "author": "Zovo <hello@zovo.one>",
+    "license": "MIT",
+    "keywords": [
+        "chrome-extension",
+        "popup",
+        "router",
+        "navigation",
+        "hash-router",
+        "page-transition",
+        "manifest-v3",
+        "browser-extension",
+        "spa-router",
+        "popup-page"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/theluckystrike/webext-popup-router.git"
+    },
+    "main": "./dist/index.js",
+    "types": "./dist/index.d.ts",
+    "files": [
+        "dist",
+        "README.md",
+        "LICENSE"
+    ],
+    "scripts": {
+        "build": "tsc",
+        "test": "jest",
+        "prepublishOnly": "npm run build"
+    },
+    "devDependencies": {
+        "@types/chrome": "^0.0.260",
+        "typescript": "^5.3.3"
+    }
+}
