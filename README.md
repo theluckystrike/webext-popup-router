@@ -1,3 +1,8 @@
+[![CI](https://github.com/theluckystrike/webext-popup-router/actions/workflows/ci.yml/badge.svg)](https://github.com/theluckystrike/webext-popup-router/actions)
+[![npm](https://img.shields.io/npm/v/@theluckystrike/webext-popup-router)](https://www.npmjs.com/package/@theluckystrike/webext-popup-router)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+[![TypeScript](https://img.shields.io/badge/TypeScript-5.0-blue.svg)](https://www.typescriptlang.org/)
+
 # webext-popup-router
 
 A lightweight routing library for Chrome extension popup and options pages using hash-based navigation.
@@ -192,3 +197,6 @@ MIT License - Copyright (c) 2025 theluckystrike
 ## About
 
 webext-popup-router is maintained by theluckystrike. It is part of the zovo.one developer tools ecosystem, focused on building privacy-first Chrome extensions.
+
+---
+Built by [theluckystrike](https://github.com/theluckystrike) — [zovo.one](https://zovo.one)
